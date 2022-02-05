@@ -98,13 +98,12 @@ if __name__ == "__main__":
             try:
                 speak("What should i say?")
                 content = takeCommand()
-                to = "aayushi100199@gmail.com" 
+                to = "username@gmail.com" 
                 sendEmail(to, content)
                 speak("Email has been sent")
-                speak("Moj kraadi beteeeeyyyyyyyy")
             except Exception as e:
                 print(e)
-                speak("Sorry aayu, nai jaari email")       
+                speak("Sorry,email can't be sent")       
 
         elif 'open teams' in query:
             speak("opening teams app.....") 
