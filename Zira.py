@@ -110,7 +110,7 @@ if __name__ == "__main__":
             os.startfile("C:\\Users\\admin\\AppData\\Local\\Microsoft\\Teams")     
 
         elif 'quit' in query:
-            speak("signing off, Anneyeong")
+            speak("signing off")
             break
            
 
