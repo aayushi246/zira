@@ -38,8 +38,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('64.233.184.108') #587 is the port
     server.ehlo()
     server.starttls()
-    server.login('aayushi100199@gmail.com', 'enter_password')
-    server.sendmail('aayushi100199@gmail.com', to, content)
+    server.login('username@gmail.com', 'enter_password')
+    server.sendmail('username9@gmail.com', to, content)
     server.close()
 
 
